@@ -1,0 +1,58 @@
+body {
+    font-family: Mulish;
+    background: #FFFFFF;
+    color: #333333;
+}
+.navtop {
+    background: #F5FAFE;
+    /* margin: auto; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.top_help {
+}
+.top_giftcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_loyalityprogram {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    background: green;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.search {
+    background: red;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 450px;
+    height: 40px;
+    font-size: 12px;
+}
+.search button {
+    background: #EC1F46;
+    height: 40px;
+    width: 65px;
+}
+.cart {
+    background: red;
+}
+.profile {
+    background: red;
+}
