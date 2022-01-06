@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 body {
     font-family: Mulish;
     background: #FFFFFF;
@@ -19,6 +22,8 @@ body a {
 }
 .top_help {
     font-size: 10px;
+    display: flex;
+    align-items: center;
 }
 .gift_and_loyalty {
     width: 314px;
@@ -79,7 +84,7 @@ body a {
 }
 .search button {
     background: #EC1F46;
-    height: 42px;
+    height: 40px;
     width: 65px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -89,12 +94,18 @@ body a {
     width: 235px;
     display: flex;
     justify-content: space-between;
-}
-.cart {
-    display: flex;
     align-items: center;
 }
+.cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 .cart_count {
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 20px;
     width: 20px;
     font-size: 10px;
@@ -105,8 +116,9 @@ body a {
     background-position: center;
 }
 .cart_and_count {
-    width: 30px;
-    height: 30px;
+    position: relative;
+    width: 34px;
+    height: 34px;
     
 }
 .profile {
@@ -159,16 +171,96 @@ body a {
     font-weight: 700;
     color: #0A223D;
 }
-.hotelName {
+.hotel_name_back {
+    background: #F5FAFE;
+}
+.hotel_name {
+    margin: auto;
+    max-width: 1105px;
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
-.hotelName_info {
-    margin-left: 5vw;
-    /* display: flex;
-    flex-direction: column; */
+.hotel_name_info {
+    margin: 0;
+    max-height: 57px;
+    display: flex;
+    flex-direction: column;
 }
-.hotelName_userRating {
-    margin-right: 5vw;
+.hotel_name_info_name_and_offer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hotel_name_info_name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 14px;
+}
+.hotel_name_info_offer {
+    font-size: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #EC1F46;
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel_name_user_rating {
+    background: #EC1F46;
+    height: 45px;
+    width: 65px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hotel_name_user_rating_text {
+    color: #FFFFFF;
+    font-size: 8px;
+    font-weight: 600;
+}
+.hotel_name_user_rating_rate {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+}
+.huinya_grid_back {
+    background: #F5FAFE;
+}
+.huinya_grid {
+    background: grey;
+    max-width: 1105px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 38vw 30px 17.8vw;
+    grid-template-rows: 21.8vh 30px 21.8vh;
+}
+.huinya_grid_slider {
+    width: 38vw;
+    height: 450px;
+    grid-column: 1;
+    grid-row: 1/4;
+    border: 2px solid black;
+}
+.huinya_grid_slider img {
+    width: 37.8vw;
+}
+.huinya_grid_booking {
+    width: 17.8vw;
+    height: 21.8vh;
+    grid-column: 3;
+    grid-row: 1;
+    border: 2px solid darkblue;
+}
+.huinya_grid_map{
+    width: 17.8vw;
+    height: 21.8vh;
+    grid-column: 3;
+    grid-row: 3;
+    border: 2px solid darkred;
 }
