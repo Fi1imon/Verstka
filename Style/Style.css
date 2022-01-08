@@ -6,9 +6,6 @@ body {
     background: #FFFFFF;
     color: #333333;
 }
-body a {
-    /* text-decoration: none; */
-}
 .nav_top_back {
     max-width: 100%;
     background: #F5FAFE;
@@ -89,6 +86,7 @@ body a {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-width: 0px;
+    cursor: pointer;
 }
 .cart_and_prof {
     width: 235px;
@@ -233,34 +231,111 @@ body a {
     background: #F5FAFE;
 }
 .huinya_grid {
-    background: grey;
+    /* background: grey; */
     max-width: 1105px;
     margin: auto;
     display: grid;
-    grid-template-columns: 38vw 30px 17.8vw;
-    grid-template-rows: 21.8vh 30px 21.8vh;
+    grid-template-columns: 38vw 1.6vw 17.8vw;
+    grid-template-rows: 21.8vh 3.2vh 21.8vh;
 }
 .huinya_grid_slider {
     width: 38vw;
     height: 450px;
     grid-column: 1;
     grid-row: 1/4;
-    border: 2px solid black;
 }
 .huinya_grid_slider img {
-    width: 37.8vw;
+    width: 38.2vw;
 }
-.huinya_grid_booking {
-    width: 17.8vw;
+.huinya_grid_booking_back {
+    background: #0A223D;
+    border-radius: 5px;
+    width: 18vw;
     height: 21.8vh;
     grid-column: 3;
     grid-row: 1;
-    border: 2px solid darkblue;
+}
+.huinya_grid_booking {
+    color: #FFFFFF;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 3.2vh;
+    display: grid;
+    grid-template-columns: 90px 1fr 80px;
+    grid-template-rows: 60px 12px 25px 17px 45px;
+}
+.huinya_grid_booking_price {
+    height: 60px;
+    max-width: 90px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.huinya_grid_booking_price_start {
+    font-size: 10px;
+    font-weight: 400;
+}
+.huinya_grid_booking_price_number{
+    font-size: 24px;
+    font-weight: 800;
+}
+.huinya_grid_booking_price_length {
+    font-size: 12px;
+    font-weight: 400;
+}
+.huinya_grid_booking_person_room {
+    max-width: 80px;
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 12px;
+    font-weight: 400;
+}
+.huinya_grid_booking_person_room_guests {
+    display: flex;
+    justify-content: space-between;
+}
+.huinya_grid_booking_person_room_rooms {
+    display: flex;
+    justify-content: space-between;
+}
+.huinya_grid_booking_call_center{
+    height: 25px;
+    max-width: 295px;
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.huinya_grid_booking_call_center_text {
+    max-width: 220px;
+}
+.huinya_grid_booking_call_center_number {
+    display: flex;
+    justify-content: space-between;
+}
+.huinya_grid_booking_button {
+    height: 45px;
+    max-width: 295px;
+    grid-column: 1/4;
+    grid-row: 5;
+}
+.huinya_grid_booking_button button {
+    width: 100%;
+    height: 100%;
+    background: #EC1F46;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .huinya_grid_map{
     width: 17.8vw;
     height: 21.8vh;
     grid-column: 3;
     grid-row: 3;
-    border: 2px solid darkred;
+    /* border: 2px solid darkred; */
 }
