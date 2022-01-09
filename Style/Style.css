@@ -392,6 +392,74 @@ body {
     grid-column: 1;
     grid-row: 1;
 }
+.package_card_title {
+    height: 50px;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    /* margin-bottom: 15px; */
+}
+.package_card_lists {
+    width: 540px;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.package_card_lists p {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333; 
+}
+.package_card_list1 {
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 25px;
+}
+.package_card_list2 {
+    display: flex;
+    align-items: center;
+    margin-top: 22.5px;
+    margin-left: 25px;
+}
+.package_card_list3 {
+    display: flex;
+    align-items: center;
+    margin-top: 22.5px;
+    margin-left: 25px;
+}
+.package_card_list4 {
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+}
+.package_card_list5 {
+    display: flex;
+    align-items: center;
+    margin-top: 22.5px;
+}
+/* .package_card_lists li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    list-style: url('../Svg/list_checkbox_in_circle.svg');
+    padding: 12px;
+}
+.package_card_list1 {
+    width: 270px;
+    height: 150px;
+    margin-left: 12px;
+}
+.package_card_list2 {
+    width: 270px;
+    height: 150px;
+} */
 .chill_card {
     width: 540px;
     height: 200px;
@@ -399,12 +467,54 @@ body {
     grid-column: 3;
     grid-row: 1;
 }
+.chill_card_title {
+    height: 50px;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+.chill_card_lists {
+    max-width: 540px;
+}
+.chill_card_lists p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+.chill_card_lists_left {
+    width: 270px;
+    /* height: 150px; */
+    display: flex;
+}
+.chill_card_lists_left_text {
+
+}
+.chill_card_lists_right {
+
+}
+
 .package_card_details {
     width: 1105px;
     height: 550px;
     border: 1px solid green;
     grid-column: 1/4;
     grid-row: 3;
+}
+.package_card_details_title {
+    height: 50px;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
 }
 .other_pack {
     max-width: 1105px;
