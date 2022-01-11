@@ -388,6 +388,7 @@ body {
 .package_card {
     width: 540px;
     height: 200px;
+    background-color: #FFFFFF;
     border: 1px solid blue;
     grid-column: 1;
     grid-row: 1;
@@ -463,6 +464,7 @@ body {
 .chill_card {
     width: 540px;
     height: 200px;
+    background-color: #FFFFFF;
     border: 1px solid red;
     grid-column: 3;
     grid-row: 1;
@@ -480,24 +482,41 @@ body {
 }
 .chill_card_lists {
     max-width: 540px;
+    display: flex;
+
 }
 .chill_card_lists p {
+    margin-left: 20px;
     font-size: 12px;
     font-weight: 400;
     color: #333333;
 }
 .chill_card_lists_left {
     width: 270px;
-    /* height: 150px; */
+    height: 150px;
     display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
+.chill_card_lists_left_img_text {
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 25px;
 }
 .chill_card_lists_left_text {
-
+    position: absolute;
+    bottom: 18px;
+    left: 37px;
 }
 .chill_card_lists_right {
-
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 25px;
 }
-
+/* То что снизу. Я норм делаю, или можно упростить код? */
 .package_card_details {
     width: 1105px;
     height: 550px;
@@ -515,6 +534,90 @@ body {
     display: flex;
     align-items: center;
     padding-left: 24px;
+}
+.package_card_details_activities_back {
+    width: 1105px;
+    height: 460px;
+    background-color: #FFFFFF;
+    padding-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+.package_card_details_activities {
+    width: 1002px;
+    height: 405px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 260px 120px 230px 150px 240px;
+    grid-template-rows:  281px 32px 90px;
+}
+.package_card_details_activities p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #EC1F46;
+}
+.package_card_activity_list {
+    /* width: 260px;
+    height: 224; */
+    display: flex;
+    flex-direction: column;
+}
+.package_card_details_activity1 {
+    width: 260px;
+    height: 240px;
+    border: 1px solid red;
+    grid-column: 1;
+    grid-row: 1;
+}
+.package_card_activity_list1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.package_card_activity_list1 p {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+.package_card_details_activity2 {
+    width: 230px;
+    height: 240px;
+    border: 1px solid blue;
+    grid-column: 3;
+    grid-row: 1;
+}
+.package_card_details_activity3 {
+    width: 240px;
+    height: 240px;
+    border: 1px solid yellow;
+    grid-column: 5;
+    grid-row: 1;
+}
+.package_card_lines {
+    grid-column: 1/6;
+    grid-row: 2;
+}
+.package_card_details_activity4 {
+    width: 260px;
+    height: 90px;
+    border: 1px solid purple;
+    grid-column: 1;
+    grid-row: 3;
+}
+.package_card_details_activity5 {
+    width: 230px;
+    height: 90px;
+    border: 1px solid grey;
+    grid-column: 3;
+    grid-row: 3;
+}
+.package_card_details_activity6 {
+    width: 240px;
+    height: 90px;
+    border: 1px solid pink;
+    grid-column: 5;
+    grid-row: 3;
 }
 .other_pack {
     max-width: 1105px;
