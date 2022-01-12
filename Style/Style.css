@@ -640,29 +640,186 @@ body {
     grid-template-rows: 500px 27.5px 500px;
 }
 .trip_card1 {
+    width: 725.5px;
+    height: 500px;
+    background-color: #0A223D;
     border: 1px solid red;
     grid-column: 1/4;
     grid-row: 1;
+    display: flex;
+}
+.card1_left {
+    width: 366;
+    height: 500px;
+}
+.card1_right {
+    width: 305px;
+    height: 424px;
+    margin: auto;
+    border: 1px solid blueviolet;
+    /* background-color: #0A223D; */
+
+}
+.card1_right_hotel_name p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.card1_right_hotel_text {
+    margin-top: 27px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.card1_hotel_info_location {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+.card1_hotel_info_location p {
+    margin-left: 15px;
+}
+.cards_hotel_info_guests p {
+    margin-left: 15px;
+}
+.cards_hotel_info_rooms p {
+    margin-left: 15px;
+}
+.cards_hotel_info_guests {
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+.cards_hotel_info_rooms {
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+.cards_hotel_price {
+    width: 300px;
+    height: 58px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards_hotel_price_text1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+.cards_hotel_price_text2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.cards_hotel_price_button {
+    width: 120px;
+    height: 40px;
+}
+.cards_hotel_price_button button{
+    width: 100%;
+    height: 100%;
+    background: #EC1F46;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .trip_card2 {
+    background-color: #0A223D;
     border: 1px solid blue;
     grid-column: 5;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card2_up {
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+.cards_up_flash_button {
+    width: 60px;
+    height: 18px;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+}
+.cards_up_flash_button button {
+    width: 100%;
+    height: 100%;
+    background: #EC1F46;
+    color: #FFFFFF;
+    font-size: 8px;
+    font-weight: 600;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.card2_down {
+    width: 300px;
+    height: 195px;
+    margin: auto;
+}
+.card2_down_hotel_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.card2_hotel_info_location {
+    margin-top: 23px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+.card2_hotel_info_location p {
+    margin-left: 15px;
+}
+.cards_down_hotel_price {
+    width: 300px;
+    height: 58px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 .trip_card3 {
+    background-color: #0A223D;
     border: 1px solid green;
     grid-column: 1;
     grid-row: 3;
+    display: flex;
+    flex-direction: column;
+}
+.card3_up {
+    position: relative;
 }
 .trip_card4 {
+    background-color: #0A223D;
     border: 1px solid purple;
     grid-column: 3;
     grid-row: 3;
+    display: flex;
+    flex-direction: column;
 }
 .trip_card5 {
+    background-color: #0A223D;
     border: 1px solid yellow;
     grid-column: 5;
     grid-row: 3;
+    display: flex;
+    flex-direction: column;
 }
 .people_about_us{
     max-width: 1105px;
