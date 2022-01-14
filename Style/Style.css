@@ -941,7 +941,7 @@ body {
     margin-top: 70px;
 }
 .newsletter {
-    max-width: 1105px;
+    max-width: 730px;
     height: 260px;
     margin: auto;
     border: 1px solid black;
@@ -1124,7 +1124,10 @@ body {
     font-weight: 400;
     color: #FFFFFF;
 }
-.footer_categories_text {
+.footer_categories_text a {
+    text-decoration: none;
+}
+.footer_categories_text p {
     font-size: 14px;
     font-weight: 700;
     color: gray;
@@ -1136,6 +1139,37 @@ body {
     height: 220px;
     grid-column: 5;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_add_inf_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer_add_inf_text a {
+    text-decoration: none;
+}
+.footer_add_inf_text p {
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    line-height: 22px;
+}
+.footer_add_inf_soc_net {
+    display: flex;
+    justify-content: space-between;
+}
+.soc_net_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.soc_net_links {
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer_legal_inf {
     border: 1px solid purple;
@@ -1144,12 +1178,56 @@ body {
     grid-column: 7;
     grid-row: 1;
 }
+.footer_legal_inf_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer_legal_inf_text {
+    margin-top: 25px;
+}
+.footer_legal_inf_text a {
+    text-decoration: none;
+}
+.footer_legal_inf_text p {
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    line-height: 22px;
+}
 .footer_contact_details {
     border: 1px solid yellow;
     width: 565px;
     height: 317px;
     grid-column: 1/5;
     grid-row: 3;
+}   
+.footer_contact_details_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer_contact_details_text {
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    margin-top: 25px;
+}
+.footer_contact_details_inf {
+    margin-top: 25px;
+}
+.footer_contact_details_inf p {
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+}
+.contact_details_inf_1 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.contact_details_inf_1 p {
+    margin-left: 20px;
 }
 .footer_form {
     border: 1px solid pink;
@@ -1157,6 +1235,70 @@ body {
     height: 317px;
     grid-column: 5/8;
     grid-row: 3;
+    display: grid;
+    grid-template-columns: 250px 30px 153px 97px;
+    grid-template-rows: 56px 50px 15px 123px 22px 50px;
+}
+.footer_form_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer_form_name {
+    grid-column: 1;
+    grid-row: 2;
+}
+.footer_form_name input {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+}
+.footer_form_phone {
+    grid-column: 3/5;
+    grid-row: 2;
+}
+.footer_form_phone input {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+}
+.footer_form_message {
+    grid-column: 1/5;
+    grid-row: 4;
+}
+.footer_form_message input {
+    width: 530px;
+    height: 123px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+}
+.footer_form_send {
+    grid-column: 1/5;
+    grid-row: 6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_form_send button {
+    width: 160px;
+    height: 50px;
+    background: #EC1F46;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer_form_send p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #E0E0E0;
 }
 .footer_bottom {
     width: 1105px;
