@@ -80,7 +80,7 @@ body {
     width: 285px;
     /* padding: 2px 23px 2px 30px; */
     outline: 0;
-    background-color: #FFFFFF;
+    background-color: #F5FAFE;
 }
 .search button {
     background: #EC1F46;
@@ -175,6 +175,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .hotel_name_info {
     margin: 0;
@@ -204,6 +205,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.hotel_name_info_info {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
 .hotel_name_user_rating {
     background: #EC1F46;
     height: 45px;
@@ -229,23 +235,23 @@ body {
     max-width: 1105px;
     margin: auto;
     display: grid;
-    grid-template-columns: 38vw 1.6vw 17.8vw;
-    grid-template-rows: 21.8vh 3.2vh 21.8vh;
+    grid-template-columns: 726px 30px 345px;
+    grid-template-rows: 213px 26px 213px;
 }
 .huinya_grid_slider {
-    width: 38vw;
+    width: 726px;
     height: 450px;
     grid-column: 1;
     grid-row: 1/4;
 }
 .huinya_grid_slider img {
-    width: 38.2vw;
+    width: 728px;
 }
 .huinya_grid_booking_back {
     background: #0A223D;
     border-radius: 5px;
-    width: 18vw;
-    height: 21.8vh;
+    width: 345px;
+    height: 213px;
     grid-column: 3;
     grid-row: 1;
 }
@@ -253,7 +259,7 @@ body {
     color: #FFFFFF;
     max-width: 300px;
     margin: auto;
-    margin-top: 3.2vh;
+    margin-top: 29px;
     display: grid;
     grid-template-columns: 90px 1fr 80px;
     grid-template-rows: 60px 12px 25px 17px 45px;
@@ -327,8 +333,8 @@ body {
     cursor: pointer;
 }
 .huinya_grid_map{
-    width: 17.8vw;
-    height: 21.8vh;
+    width: 347px;
+    height: 213px;
     grid-column: 3;
     grid-row: 3;
     /* border: 2px solid darkred; */
@@ -651,6 +657,26 @@ body {
 .card1_left {
     width: 366;
     height: 500px;
+    position: relative;
+}
+.card1_left_flash_button {
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+}
+.card1_left_flash_button button {
+    width: 100%;
+    height: 100%;
+    background: #EC1F46;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 .card1_right {
     width: 305px;
@@ -708,6 +734,7 @@ body {
     margin-top: 38px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .cards_hotel_price_text1 {
     font-size: 14px;
@@ -793,6 +820,7 @@ body {
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .trip_card3 {
     background-color: #0A223D;
