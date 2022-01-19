@@ -882,7 +882,7 @@ body {
 .guest_review2_body_back {
     width: 730px;
     height: 280px;
-    background-color: #FFFFFF;
+    background-image: url(../Images/guest_review_body_quotes.jpg);
     position: absolute;
     bottom: 0;
     display: flex;
@@ -905,17 +905,6 @@ body {
     font-weight: 400;
     color: #333333;
     line-height: 19.2px;
-}
-.guest_review2_body_quotes {
-    width: 610px;
-    height: 154px;
-    display: flex;
-    justify-content: space-between;
-}
-.quotes_down {
-    align-self: flex-end;
-}
-.guest_review2_arrows {
 }
 .arrow_left {
     width: 170px;
