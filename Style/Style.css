@@ -78,7 +78,6 @@ body {
     border-width: 0px;
     height: 40px;
     width: 285px;
-    /* padding: 2px 23px 2px 30px; */
     outline: 0;
     background-color: #F5FAFE;
 }
@@ -337,7 +336,6 @@ body {
     height: 213px;
     grid-column: 3;
     grid-row: 3;
-    /* border: 2px solid darkred; */
 }
 .cards_menu {
     max-width: 1105px;
@@ -386,7 +384,6 @@ body {
     max-width: 1105px;
     margin: auto;
     margin-top: 30px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 540px 22.5px 540px;
     grid-template-rows: 200px 33px 550px;
@@ -395,7 +392,6 @@ body {
     width: 540px;
     height: 200px;
     background-color: #FFFFFF;
-    border: 1px solid blue;
     grid-column: 1;
     grid-row: 1;
 }
@@ -471,7 +467,6 @@ body {
     width: 540px;
     height: 200px;
     background-color: #FFFFFF;
-    border: 1px solid red;
     grid-column: 3;
     grid-row: 1;
 }
@@ -526,7 +521,6 @@ body {
 .package_card_details {
     width: 1105px;
     height: 550px;
-    border: 1px solid green;
     grid-column: 1/4;
     grid-row: 3;
 }
@@ -552,7 +546,6 @@ body {
 .package_card_details_activities {
     width: 1002px;
     height: 405px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 260px 120px 230px 150px 240px;
     grid-template-rows:  281px 32px 90px;
@@ -563,15 +556,12 @@ body {
     color: #EC1F46;
 }
 .package_card_activity_list {
-    /* width: 260px;
-    height: 224; */
     display: flex;
     flex-direction: column;
 }
 .package_card_details_activity1 {
     width: 260px;
     height: 240px;
-    border: 1px solid red;
     grid-column: 1;
     grid-row: 1;
 }
@@ -589,14 +579,12 @@ body {
 .package_card_details_activity2 {
     width: 230px;
     height: 240px;
-    border: 1px solid blue;
     grid-column: 3;
     grid-row: 1;
 }
 .package_card_details_activity3 {
     width: 240px;
     height: 240px;
-    border: 1px solid yellow;
     grid-column: 5;
     grid-row: 1;
 }
@@ -607,21 +595,18 @@ body {
 .package_card_details_activity4 {
     width: 260px;
     height: 90px;
-    border: 1px solid purple;
     grid-column: 1;
     grid-row: 3;
 }
 .package_card_details_activity5 {
     width: 230px;
     height: 90px;
-    border: 1px solid grey;
     grid-column: 3;
     grid-row: 3;
 }
 .package_card_details_activity6 {
     width: 240px;
     height: 90px;
-    border: 1px solid pink;
     grid-column: 5;
     grid-row: 3;
 }
@@ -640,7 +625,6 @@ body {
     max-height: 1030px;
     margin: auto;
     margin-top: 65px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 350px 27.5px 350px 27.5px 350px;
     grid-template-rows: 500px 27.5px 500px;
@@ -649,7 +633,6 @@ body {
     width: 725.5px;
     height: 500px;
     background-color: #0A223D;
-    border: 1px solid red;
     grid-column: 1/4;
     grid-row: 1;
     display: flex;
@@ -682,8 +665,6 @@ body {
     width: 305px;
     height: 424px;
     margin: auto;
-    border: 1px solid blueviolet;
-    /* background-color: #0A223D; */
 
 }
 .card1_right_hotel_name p{
@@ -764,7 +745,6 @@ body {
 }
 .trip_card2 {
     background-color: #0A223D;
-    border: 1px solid blue;
     grid-column: 5;
     grid-row: 1;
     display: flex;
@@ -824,7 +804,6 @@ body {
 }
 .trip_card3 {
     background-color: #0A223D;
-    border: 1px solid green;
     grid-column: 1;
     grid-row: 3;
     display: flex;
@@ -835,7 +814,6 @@ body {
 }
 .trip_card4 {
     background-color: #0A223D;
-    border: 1px solid purple;
     grid-column: 3;
     grid-row: 3;
     display: flex;
@@ -843,7 +821,6 @@ body {
 }
 .trip_card5 {
     background-color: #0A223D;
-    border: 1px solid yellow;
     grid-column: 5;
     grid-row: 3;
     display: flex;
@@ -864,7 +841,6 @@ body {
     height: 325px;
     margin: auto;
     margin-top: 70px;
-    border: 1px solid black;
     display: flex;
 
 }
@@ -872,14 +848,12 @@ body {
     width: 730px;
     height: 325px;
     margin: auto;
-    border: 1px solid red;
     position: relative;
     
 }
 .guest_review2_prof_card {
     width: 100px;
     height: 150px;
-    border: 1px solid blue;
     position: absolute;
     left: 315px;
     display: flex;
@@ -909,8 +883,6 @@ body {
     width: 730px;
     height: 280px;
     background-color: #FFFFFF;
-    /* background-image: url(../Images/guest_review_bode_back.jpg); */
-    border: 1px solid gray;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -920,7 +892,6 @@ body {
     width: 610px;
     height: 240px;
     margin-top: 10px;
-    border: 1px solid green;
     position: relative;
 }
 .guest_review2_body_text {
@@ -945,7 +916,6 @@ body {
     align-self: flex-end;
 }
 .guest_review2_arrows {
-    border: 1px solid yellow;
 }
 .arrow_left {
     width: 170px;
@@ -972,7 +942,6 @@ body {
     max-width: 730px;
     height: 260px;
     margin: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -980,7 +949,6 @@ body {
 .newsletter_text {
     width: 242px;
     height: 66px;
-    border: 1px solid red;
 }
 .newsletter_text_up {
     width: 241px;
@@ -997,7 +965,6 @@ body {
 .newsletter_search {
     width: 350px;
     height: 55px;
-    /* border: 1px solid blue; */
     display: flex;
 }
 .newsletter_search input {
@@ -1035,10 +1002,8 @@ body {
     margin-top: 57px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
 }
 .activity_1 {
-    border: 1px solid red;
     background-image: linear-gradient(rgba(196, 196, 196, 0),
     rgba(10, 34, 61, 1)), url(../Images/activity_1.jpg);
     width: 255px;
@@ -1046,7 +1011,6 @@ body {
     position: relative;
 }
 .activity_2 {
-    border: 1px solid blue;
     background-image: linear-gradient(rgba(196, 196, 196, 0),
     rgba(10, 34, 61, 1)), url(../Images/activity_2.jpg);
     width: 255px;
@@ -1054,7 +1018,6 @@ body {
     position: relative;
 }
 .activity_3 {
-    border: 1px solid green;
     background-image: linear-gradient(rgba(196, 196, 196, 0),
     rgba(10, 34, 61, 1)), url(../Images/activity_3.jpg);
     width: 255px;
@@ -1062,7 +1025,6 @@ body {
     position: relative;
 }
 .activity_4 {
-    border: 1px solid purple;
     background-image: linear-gradient(rgba(196, 196, 196, 0),
     rgba(10, 34, 61, 1)), url(../Images/activity_4.jpg);
     width: 255px;
@@ -1108,21 +1070,19 @@ body {
     width: 1105px;
     height: 630px;
     margin-top: 100px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 160px 125px 156px 124px 293px 53px 194px;
     grid-template-rows: 220px 94px 317px;
 }
-/* Хуй знает почему, не работает, чтобы слово "tour" было красным 
+/* Хуй знает почему, не работает, чтобы слово "tour" было красным  */
 .footer_logo_tour {
     color: #EC1F46;
     font-size: 48px;
     font-weight: 400;
-} */
+}
 .footer_logo {
     width: 160px;
     height: 220px;
-    border: 1px solid red;
     grid-column: 1;
     grid-row: 1;
     font-family: Luckiest Guy;
@@ -1138,7 +1098,6 @@ body {
     font-weight: 400;
 }
 .footer_categories {
-    border: 1px solid blue;
     width: 156px;
     height: 220px;
     grid-column: 3;
@@ -1162,7 +1121,6 @@ body {
     line-height: 22px;
 }
 .footer_add_inf {
-    border: 1px solid green;
     width: 293px;
     height: 220px;
     grid-column: 5;
@@ -1200,7 +1158,6 @@ body {
     justify-content: space-between;
 }
 .footer_legal_inf {
-    border: 1px solid purple;
     width: 194px;
     height: 220px;
     grid-column: 7;
@@ -1224,7 +1181,6 @@ body {
     line-height: 22px;
 }
 .footer_contact_details {
-    border: 1px solid yellow;
     width: 565px;
     height: 317px;
     grid-column: 1/5;
@@ -1258,7 +1214,6 @@ body {
     margin-left: 20px;
 }
 .footer_form {
-    border: 1px solid pink;
     width: 540px;
     height: 317px;
     grid-column: 5/8;
